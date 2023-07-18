@@ -5,19 +5,20 @@
 ## 🎉 Let's go!
 
 Para iniciar o projeto insira o comando:
+
 ```
 npm run dev
 ```
+
 ou entre no link:
-```
 
 ```
 
+```
 
 ## 💻 Projeto
 
 Esse projeto consiste em uma busca por países utilizando a tecnologia React Query para otimizar requisições a API <b>https://restcountries.com/</b>. Além disso a aplicação conta com a possibilidade de tradução da página.
-
 
 ## 🚀 Tecnologias
 
@@ -29,7 +30,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Node e NPM
 - Vite
 
-
 ## 📚 Bibliotecas
 
 - Phosphor Icons
@@ -37,4 +37,3 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - React Query
 - Axios
 - Prettier
-
