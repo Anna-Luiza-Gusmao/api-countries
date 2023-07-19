@@ -12,8 +12,9 @@ export const darkTheme = {
     hover: 'rgba(19, 98, 146, 1)'
   },
   translationCard: {
-    'hover-pt': '#33BF63',
-    'hover-eua': '#CD1C1C'
+    line: '#33BF63',
+    'hover-pt': 'rgba(51, 191, 99, 0.10)',
+    'hover-eua': 'rgba(205, 28, 28, 0.10)'
   },
   button: {
     hover: '#4C4C4C'

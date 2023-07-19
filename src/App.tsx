@@ -1,10 +1,17 @@
 import { ThemeProvider } from "styled-components"
 import { GlobalStyle } from "./styles/global"
-import { lightTheme } from "./styles/themes/light"
+import { Header } from "./components/Header"
 
 export function App() {
+  const {
+    chosenTheme,
+    renderHeader
+  } = Header()
+
   return (
-    <ThemeProvider theme={lightTheme}>
+    <ThemeProvider theme={chosenTheme}>
+      {renderHeader}
+      
       <GlobalStyle />
     </ThemeProvider>
   )

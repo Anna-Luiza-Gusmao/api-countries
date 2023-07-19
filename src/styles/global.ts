@@ -22,4 +22,9 @@ export const GlobalStyle = createGlobalStyle`
         line-height: 0.625rem;
         color: ${(props) => props.theme.colors.text};
     }
+
+    button {
+        all: unset;
+        cursor: pointer;
+    }
 `

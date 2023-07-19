@@ -12,8 +12,9 @@ export const lightTheme = {
     hover: 'rgba(117, 176, 212, 1)'
   },
   translationCard: {
-    'hover-pt': '#199443',
-    'hover-eua': '#3C3B6E'
+    line: '#199443',
+    'hover-pt': 'rgba(25, 148, 67, 0.10)',
+    'hover-eua': 'rgba(60, 59, 110, 0.10)'
   },
   button: {
     hover: '#707070'
